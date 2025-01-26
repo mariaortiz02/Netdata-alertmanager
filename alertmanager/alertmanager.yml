@@ -7,8 +7,8 @@ route:
 receivers:
   - name: 'telegram-notifications'
     telegram_configs:
-      - bot_token: 7748871713:AAHcjT3WCn7vZ3MpW83GG9WltdURzmRYVHg
-        chat_id: 6535471391
+      - bot_token: <your_bot>
+        chat_id: <your_id>
 
 inhibit_rules:
   - source_match:
